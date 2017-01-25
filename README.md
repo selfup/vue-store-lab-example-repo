@@ -1,6 +1,10 @@
 # vue-store-lab-example-repo
 
-> A Vue.js project
+An Example repo for How to use VueStoreLab
+
+Will update to .vue files soon.
+
+Just needed an MVP :joy:
 
 ## Build Setup
 
