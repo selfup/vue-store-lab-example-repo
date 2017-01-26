@@ -22,6 +22,11 @@ module.exports = {
       required: true,
     },
   },
+
+  /**
+    The use of computed properties here is how to scope out your state
+    This will ensure that children don't have more data than they need
+  */
   computed: {
     dates() {
       return this.state.dates;
