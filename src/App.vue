@@ -19,6 +19,7 @@ module.exports = {
   props: {
     state: {
       type: Object,
+      required: true,
     },
   },
   computed: {
