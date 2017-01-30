@@ -1,6 +1,6 @@
 <template>
   <section>
-    <buttons :canClear='canClear'></buttons>
+    <date-action-buttons :canClear='canClear'></date-action-buttons>
     <p>Dates length: {{ datesLength }}</p>
     <hr v-if='canClear'>
     <dates :dates='dates'></dates>
@@ -9,12 +9,12 @@
 
 <script>
 import Dates from './components/Dates';
-import Buttons from './components/Buttons';
+import DateActionButtons from './components/DateActionButtons';
 
 module.exports = {
   components: {
     Dates,
-    Buttons,
+    DateActionButtons,
   },
   props: {
     state: {
